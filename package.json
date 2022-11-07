@@ -1,0 +1,27 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "kte": "bin/cli"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/generator": "^7.20.2",
+    "@babel/parser": "^7.20.2",
+    "@babel/traverse": "^7.20.1",
+    "@babel/types": "^7.20.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.8",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.1.4",
+    "ora": "^6.1.2",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2"
+  }
+}
