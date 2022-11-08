@@ -2,13 +2,15 @@ const { program } = require('commander')
 const { cyan } = require('picocolors')
 const pkg = require('../package.json')
 const { genComponent } = require('./create/createComponent')
+const { createProject } = require('./create/createProject')
 const { genView } = require('./create/createView')
 
 program
-  .command('init <projectName>')
+  .command('init')
   .description('创建一个新的项目')
-  .option('-f, --force', '如果目标目录存在则强制覆盖')
-  .action((name, cmd) => {})
+  .action(async () => {
+    await createProject()
+  })
 
 program
   .command('view')

@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "kte-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,8 +20,12 @@
     "ejs": "^3.1.8",
     "fs-extra": "^10.1.0",
     "inquirer": "^9.1.4",
-    "ora": "^6.1.2",
+    "ora": "5",
     "picocolors": "^1.0.0",
     "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.9"
   }
 }
